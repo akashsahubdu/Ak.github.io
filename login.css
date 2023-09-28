@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/wa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.text-1{
+    color: aqua;
+}
+.text-2{
+    color: rgb(149, 27, 173);
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 18px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    background-color: rgba(56, 27, 27, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00ff2a;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.text-3{
+max-width: 500px;
+margin: 0 auto;
+padding: 25px;
+position: absolute;
+bottom: 2%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.text-4{
+    color: #00ff2a;
+}
+.text-5{
+    color: black;
+}
+/* Style the footer */
+  .footer {
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add some padding for spacing */
+    position: fixed; /* Fixed positioning at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Take the full width of the viewport */
+  }
+  
